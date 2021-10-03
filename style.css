@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+div {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* ***************Section portfolio */
+
+.section-portfolio {
+    width: 100%;
+    height: 100vh;
+    background-color: darkgray;
+    color: white;
+    background: linear-gradient(0deg, rgba(84, 83, 79, 0.8), rgba(84, 83, 79, 0.8)), url('photo@1x.png');   
+}
+
+.sectin-portfolio__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.sectin-portfolio__block-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-portolio__menu {
+    padding-top: 62px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.section-portfolio__slider_center {
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section-portfolio__design {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.section-portfolio__template {
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.section-portfolio__description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section-portfolio__item {
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.section-portfolio__item_text {
+    font-size: 34px;
+    margin-top: -20px;
+    padding-right: 200px;
+}
+
+.section-portfolio__item_active {
+    color: #998675;
+}
+
+.section-portfolio__slider {
+    display: flex;
+    font-display: row;
+}
+
+.section-portfolio__text {
+    text-align: center;
+    width: 1500px;
+    padding: 0 auto;
+}
+
+.section-portfolio__slider-items {
+    margin-top: 330px;
+    display: flex;
+    font-display: row;
+    justify-content: center;
+}
+
+.section-portfolio__button {
+    width: 170px;
+    background-color: #998675;
+    color: white;
+    padding: 20px 30px;  
+}
+
+.section-portfolio__item_logo {
+    background: url('logos@1x.png') ;
+    height: 57px;
+    width: 65px;
+    list-style-type: none;
+    margin-top: -28px;
+}
+
+.section-portfolio__item_cart {
+    list-style-type: none;
+    background: url('icon-cart@1X.png');
+    height: 25px;
+    width: 19px;
+    margin-left: 45px;
+    margin-top: -8px;
+}
+
+.section-portfolio__item_search {
+    list-style-type: none;
+    background: url('icon-search@1X.png');
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+/* ************End section portfolio **********/
+
+/* *************  Section services ********** */
+.section-services {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.section-services__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+
+    margin: 0 auto;
+}
+
+.section-services__block-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section-services__block {
+    width: 266px;
+    height: 170px;
+}
+
+.section-services__img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.section-services__title {
+    font-style: 22px;
+    line-height: 21px;
+    /* padding: 19px 0; */
+}
+
+.section-services__description {
+    color: #8C8C8C;
+    line-height: 31px;
+}
+
+/* **************End section services ********* */
+
+
+/* **************** Section ideas ********* */
+.section-ideas {
+    width: 100%;
+    background-color: #FBFAF8;
+    text-align: center;
+}
+
+.section-ideas__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-ideas__description {
+    padding: 25px 100px;
+}
+
+.section-ideas__slider {
+    display: flex;
+    height: 482px;
+}
+
+.section-ideas__slider-item {
+    width: 770px;
+    height: 482px;
+}
+
+.section-ideas__slider-item_left {
+    position: relative;
+    z-index: 1!important;
+    margin-top: 82px;
+}
+
+.section-ideas__slider-item_center {
+    z-index: 3!important;
+    position: relative;
+    margin-left: -540px;
+}
+
+.section-ideas__slider-item_right {
+    z-index: 2!important;
+    position: relative;
+    margin-left: -540px;
+    margin-top: 82px;
+}
+
+.secton-ideas-title {
+    padding-top: 50px;
+}
+
+.section-ideas__block__inner {
+    width: 100%;
+}
+
+/* **************** End section ideas ****** */
+
+/* **************** Section purchase ***************/
+.section-purchase  {
+    width: 100%;
+    background: #241d1a;
+    position: relative;
+    z-index: 3!important;
+}
+
+.section-purchase__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-purchase__block-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-purchase__text{
+    margin-right: 465px;
+    padding-top: 32px;
+}
+
+.section-purchase__text_white {
+    color: white;
+}
+
+.section-purchase__text_waxom {
+    color: burlywood;
+}
+
+.section-purchase__text {
+    color: chocolate;
+}
+
+.section-purchase_btn {
+    margin: 50px 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* **************** End Section purchase ************** */
+
+/* ******************* Section projects ************ */
+
+.section-projects {
+    text-align: center;
+    width: 100%;
+    height: 1100px;
+}
+
+.section-projects__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-project__block-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.section-projects__items {
+    width: 372px;
+    /* height: 372px; */
+    text-align: left;    
+    background-color: #FBFAF8;
+    margin-bottom: 29px;
+}
+
+.section-projects__img {
+    width: 372px;
+    height: 240px;
+}
+
+.section-projects_link {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+/* ******************* End Section Projects ************* */
+
+/* ******************* Section presentation ************* */
+.section-presentation {
+    width: 100%;
+    height: 708px;
+    background: url('video-presentation.png');
+}
+
+.section-presentation__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-presentation__block-inner {
+    background: url('video-presentation.png');
+}
+
+
+/* ******************** End section presentation *********** */
+
+/* ******************** Section mobile devices ************** */
+.section-mobile {
+    width: 100%;
+}
+
+.section-mobile__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-mobile__inner-block {
+    padding-top: 50px;
+    display: flex;
+}
+
+.section-mobile__text {
+    width: 657px;
+    color: #8C8C8C;
+    font-size: 16px;
+}
+/* ******************** End section mobile devices ************* */
+
+/* ********************* Section statistics ******************* */
+.section-statistics {
+    width: 100%;
+    background: #241d1a;
+    color: white;
+}
+
+.section-statistics__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section-statistics__block-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-statistics__title {
+    font-size: 48px;
+}
+
+.section-statistics__description {
+    color: #C7B299;
+    font-size: 14px;
+}
+
+.section-statistics__block-inner {
+    padding: 50px 0;
+}
+
+/* *********************** End section statistics ************* */
+
+/* ******* Containers example ************* */
+/* .block {
+    width: 100%;
+    background-color: cyan;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.block-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+.block-item {
+    width: 266px;
+    height: 170px;
+    background-color: coral;
+} */
+/* *********** End cntainers example ************** */
